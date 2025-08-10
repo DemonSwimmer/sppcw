@@ -62,10 +62,7 @@
                 <configuration>
                     <useModulePath>false</useModulePath>
                     <includes>
-                        <include>**/*Test.java</include>
-                        <include>**/*Tests.java</include>
-                        <include>**/*TestSuite.java</include>
-                        <include>**/AllTests.java</include>
+                        <include>**/TestSuite.java</include>
                     </includes>
                 </configuration>
             </plugin>
