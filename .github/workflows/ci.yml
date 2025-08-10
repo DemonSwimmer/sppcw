@@ -23,4 +23,5 @@ jobs:
           distribution: 'temurin'
 
       - name: Build with Maven and run tests
+        working-directory: ./sppcw
         run: mvn clean test
