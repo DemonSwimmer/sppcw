@@ -35,6 +35,7 @@ public class Car {
         return drivers.size() < initialSize;
     }
 
+
     public int driverRisk(){
         if (drivers.isEmpty()) {
             return 0; // return 0 risk if theres no drivers
