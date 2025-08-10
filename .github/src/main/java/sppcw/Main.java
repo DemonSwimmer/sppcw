@@ -28,7 +28,7 @@ public class Main {
         System.out.println("Calculated Premium: £" + quote.calculatePremium());
         System.out.println("Car rating: " + car.carRating());
         System.out.println("Av driver risk: " + car.driverRisk());
-        System.out.println("-------------------------------");
+        System.out.println("------------------------------");
 
         System.out.println(car.removeDriverByName("Alice") ? "driver removed" : "no driver removed");
         quote = new InsuranceQuote(car, 500);
